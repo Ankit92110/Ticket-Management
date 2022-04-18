@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin: 0;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color:#2c3e50;
+    display: flex;
+    align-items: center;  
+     
+}
+.toolbox-cont> *{
+    margin-left: 4rem;
+}
+.toolbox-priority-cont{
+    height:3rem;
+    width:16rem;
+    background-color: #7f8c8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+.color{
+      height: 2rem;
+      width:3rem;
+     /* // background-color: blanchedalmond; */
+      border-radius: 3px;
+    
+}
+.action-btn-connt{
+   height: 3rem;
+   width:8rem;
+    background-color:#7f8c8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    border-radius: 3px;
+}
+.add{
+    height: 2rem;
+    width:3rem;
+    background-color: rgb(237, 205, 255);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+/* // for change the color during hover */
+.add:hover{
+    background-color:#eb2f06;
+    cursor: pointer;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+
+/* 
+for modal container */
+.modal-cont{
+    
+    height: 50vh;
+    width: 50vw;
+    background: lightblue;
+    position: absolute;
+    
+    top:calc(35vh);
+    left:calc(25vw);
+    display: flex;
+    border-radius: 2px;
+    
+}
+.textarea-cont{
+    height: 100%;
+    width:75%;
+    resize: none;
+    outline: none;
+   /* // border-color: lightblue; */
+    background-color: #7f8c8d;
+    border-radius: 2px;
+    font-size:18px;
+}
+.colorpicker{
+    background-color:#a4b0be ;
+    height: 100%;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.colors{
+    height: 3.5rem;
+      width:5rem;
+      border-radius: 3px;
+}
+ /* To show which colors of priority is active at a particular time */
+.border{
+    border:3px solid yellow;
+}
+
+
+.ticket-cont{
+    height:12rem;
+    width:16rem;
+    /* background-color: lightpink; */
+}
+.ticket-color{
+    height:1rem;
+    /* background-color: black; we save it dyanamically according to user preference so i comment  it  */
+
+}
+.ticket-id{
+    height:2rem;
+    padding:o.4rem;
+    background-color:#bdc3c7;
+}
+.task-area{
+    height:9rem;
+    background-color:#fad390;
+    padding:0.4rem;
+}
+.main-cont{
+    display:flex;
+    flex-wrap: wrap;
+    padding:2rem;
+    gap:2rem;
+    justify-content: center;
+}
+
+/* // to apply lock in ticket  */
+.ticket-lock{
+    height:2rem;
+    display:flex;
+    font-size:1.5rem;
+    padding-right:1rem;
+    justify-content:flex-end;
+    color:#182C61;
+}
